@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbarNav ul li a
+{
+    color: rgba(0, 0, 0, 0.594);
+}
+#navbarNav ul li a:hover
+{
+    color: crimson;
+}
+#logo{
+    font-weight: bolder;
+    color: rgb(15, 13, 132);
+}
