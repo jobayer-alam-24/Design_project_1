@@ -60,3 +60,28 @@
     color: white;
     border: none;
   }
+  .gradient-box{
+    width: 500px;
+    height: 300px;
+    background-image: radial-gradient( circle farthest-corner at 3.2% 49.6%,  rgba(124, 12, 139, 0.87) 0%, rgba(160, 52, 108, 0.72) 83.6% );
+    border-radius: 40px;
+  }
+
+  .gradient-box img{
+    position: relative;
+    top: 20px;
+    left: 20%;
+    width: 300px;
+    height: 250px;
+  }
+  .bg-custom{
+    background-color: #e0d8d82c;
+  }
+.foot-url a
+{
+    text-decoration: none;
+}
+.foot-url a:hover
+{
+    text-decoration: underline;
+}
