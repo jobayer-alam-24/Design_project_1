@@ -85,3 +85,9 @@
 {
     text-decoration: underline;
 }
+.rsm-btn{
+  text-decoration: none;
+}
+.rsm-btn:hover{
+  color: white;
+}
