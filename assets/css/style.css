@@ -132,3 +132,8 @@
 .pink-head{
   color: rgb(207, 17, 112);
 }
+.bg-option
+{
+  background-color: #c6cbcb63;
+  border-radius: 10px;
+}
