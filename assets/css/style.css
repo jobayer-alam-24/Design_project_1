@@ -205,3 +205,11 @@
 .transparent-button {
   z-index: 1;
 }
+.custom-bg-form
+{
+  background-color: rgba(243, 246, 246, 0.78);
+}
+#exampleTextarea
+{
+  resize: none;
+}
