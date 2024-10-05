@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .navigation{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -43,7 +44,20 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-
+  .down-btn
+  {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: background-color 0.3s ease;
+  }
+  .down-btn:hover{
+    opacity: 1;
+  }
   .btn-right {
     width: 30%;
     background-color: transparent;
@@ -90,4 +104,28 @@
 }
 .rsm-btn:hover{
   color: white;
+}
+.blue-head{
+  color: blue;
+}
+.card {
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.left-side {
+  width: 30%;
+  float: left;
+}
+.right-side {
+  width: 70%;
+  float: left;
+}
+.custom-width{
+  width: 58%;
+}
+.cs-bg{
+  border-radius: 10px;
+  background-color: #c6cbcb63;
 }
